@@ -1,0 +1,21 @@
+
+X	java:S106"9Replace this use of System.out or System.err by a logger.(°¿«Žøÿÿÿÿ8¬ãÐ’÷.
+[	java:S125"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8íáÜ’÷.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(üˆ÷®øÿÿÿÿ8ï¼’÷.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(¿ž£ûüÿÿÿÿ8§—¸’÷.
+D
+java:S2129"$Remove this "BigInteger" constructor(È‹Ô¹ûÿÿÿÿ8ÆŠ®’÷.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(×»þÐ8ˆÎù‘÷.
+F
+java:S1135"2Complete the task associated to this TODO comment.(¬Š»¾
+T
+java:S1854":Remove this useless assignment to local variable "random".(¼ÝÅf8ã¼ùµ÷.
+V	java:S125"<This block of commented-out lines of code should be removed.(¶¯¶Ó8ã¼ùµ÷.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ù”È8ã¼ùµ÷.
+[	java:S125"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ã¼ùµ÷.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(š²ÜÀ8ã¼ùµ÷.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8ã¼ùµ÷.
+E
+java:S1481"+Remove this unused "random" local variable.(¼ÝÅf8ã¼ùµ÷.
+R
+java:S1068"2Remove this unused "NUMBER_ENTRIES" private field.(Ñ ˜ýÿÿÿÿ8ã¼ùµ÷.
