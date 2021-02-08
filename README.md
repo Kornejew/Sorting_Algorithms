@@ -2,5 +2,6 @@
 
 |           Algorithm              | Maximum duration |   Minimum duration     | Average duration |
 | -------------------------------- | ---------------- | ---------------------- | ---------------- |
-|                   Selection Sort |         99381300 |               15868300 |         20409918 |
-|                      Bubble Sort |        361604700 |              164849800 |        205612103 |
+|                      Bubble Sort |        430731000 |              151266300 |        200864345 |
+|                   Selection Sort |         55347800 |               12993000 |         14470581 |
+|                   Insertion Sort |         21375900 |                8936000 |          9844044 |
