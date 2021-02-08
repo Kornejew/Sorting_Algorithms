@@ -2,15 +2,15 @@ package dev.kornejew.sorting;
 
 import dev.kornejew.sorting.algorithms.Algorithm;
 import dev.kornejew.sorting.algorithms.SortAlgorithm;
-import dev.kornejew.sorting.service.AlgorithmExecutorService;
 import dev.kornejew.sorting.model.ExecutionData;
+import dev.kornejew.sorting.service.AlgorithmExecutorService;
 import dev.kornejew.sorting.util.ExecutionDataDisplay;
 import lombok.extern.slf4j.Slf4j;
 
-import java.util.HashMap;
+import java.util.EnumMap;
 
 /**
- * TODO: Describe this file!
+ * Executes all implemented algorithms and displays the results.
  *
  * @author Dennis Kornejew (msg DAVID GmbH)
  * @since 05.02.2021 21:16
@@ -22,7 +22,7 @@ public class ApplicationStarter {
         AlgorithmExecutorService executor = new AlgorithmExecutorService(100, 10000);
 
 
-        HashMap<Algorithm, ExecutionData> executionDataMap = new HashMap<>();
+        EnumMap<Algorithm, ExecutionData> executionDataMap = new EnumMap<>(Algorithm.class);
         SortAlgorithm sortAlgorithm;
         for (Algorithm algorithm : Algorithm.values()) {
             sortAlgorithm = algorithm.getSortAlgorithm();

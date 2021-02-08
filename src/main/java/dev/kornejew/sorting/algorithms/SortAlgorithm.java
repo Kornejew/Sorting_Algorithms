@@ -1,13 +1,13 @@
 package dev.kornejew.sorting.algorithms;
 
 /**
- * TODO: Describe this file!
+ * Abstract representation of manually implemented sorting algorithms.
  *
  * @author Dennis Kornejew (msg DAVID GmbH)
  * @since 05.02.2021 21:00
  */
 
-public abstract class SortAlgorithm {
+public interface SortAlgorithm {
 
-    public abstract void sort(int[] a);
+    void sort(int[] a);
 }

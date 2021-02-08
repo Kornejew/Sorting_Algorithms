@@ -1,13 +1,13 @@
 package dev.kornejew.sorting.algorithms;
 
 /**
- * TODO: Describe this file!
+ * Implementation of Bubble Sort
  *
  * @author Dennis Kornejew (msg DAVID GmbH)
  * @since 05.02.2021 13:34
  */
 
-public class BubbleSort extends SortAlgorithm {
+public class BubbleSort implements SortAlgorithm {
 
     @Override
     public void sort(int[] a) {

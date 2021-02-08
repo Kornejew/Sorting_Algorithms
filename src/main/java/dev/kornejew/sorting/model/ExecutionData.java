@@ -1,8 +1,6 @@
 package dev.kornejew.sorting.model;
 
-import dev.kornejew.sorting.algorithms.Algorithm;
 import lombok.Getter;
-import lombok.Setter;
 
 import java.math.BigInteger;
 

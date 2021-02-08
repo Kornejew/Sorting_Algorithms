@@ -6,7 +6,7 @@ import dev.kornejew.sorting.model.ExecutionData;
 import java.util.Map;
 
 /**
- * TODO: Describe this file!
+ * Visualisation of {@link ExecutionData}
  *
  * @author Dennis Kornejew (msg DAVID GmbH)
  * @since 06.02.2021 12:19

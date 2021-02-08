@@ -1,13 +1,13 @@
 package dev.kornejew.sorting.algorithms;
 
 /**
- * TODO: Describe this file!
+ * Implementation of Selection Sort
  *
  * @author Dennis Kornejew (msg DAVID GmbH)
  * @since 05.02.2021 23:00
  */
 
-public class SelectionSort extends SortAlgorithm {
+public class SelectionSort implements SortAlgorithm {
 
     @Override
     public void sort(int[] a) {
