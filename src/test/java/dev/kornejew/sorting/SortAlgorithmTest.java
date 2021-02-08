@@ -2,6 +2,7 @@ package dev.kornejew.sorting;
 
 
 import dev.kornejew.sorting.algorithms.BubbleSort;
+import dev.kornejew.sorting.algorithms.InsertionSort;
 import dev.kornejew.sorting.algorithms.SelectionSort;
 import dev.kornejew.sorting.algorithms.SortAlgorithm;
 import org.junit.jupiter.api.BeforeEach;
@@ -32,6 +33,13 @@ class SortAlgorithmTest {
     @Test
     void selectionSortShouldSortArrays() {
         this.sortAlgorithm = new SelectionSort();
+        sortAlgorithm.sort(testArray);
+        assertArrayEquals(this.expectedArray, testArray);
+    }
+
+    @Test
+    void insertionSortShouldSortArrays() {
+        this.sortAlgorithm = new InsertionSort();
         sortAlgorithm.sort(testArray);
         assertArrayEquals(this.expectedArray, testArray);
     }

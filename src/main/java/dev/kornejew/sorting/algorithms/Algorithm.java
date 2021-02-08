@@ -9,7 +9,8 @@ package dev.kornejew.sorting.algorithms;
 
 public enum Algorithm {
     BUBBLE_SORT("Bubble Sort", new BubbleSort()),
-    SELECTION_SORT("Selection Sort", new SelectionSort());
+    SELECTION_SORT("Selection Sort", new SelectionSort()),
+    INSERTION_SORT("Insertion Sort", new InsertionSort());
 
     private final String name;
     private final SortAlgorithm sortAlgorithm;
