@@ -12,7 +12,7 @@ import java.util.EnumMap;
 /**
  * Executes all implemented algorithms and displays the results.
  *
- * @author Dennis Kornejew (msg DAVID GmbH)
+ * @author Dennis Kornejew
  * @since 05.02.2021 21:16
  */
 

@@ -3,7 +3,7 @@ package dev.kornejew.sorting.algorithms;
 /**
  * Implementation of Insertion Sort
  *
- * @author Dennis Kornejew (msg DAVID GmbH)
+ * @author Dennis Kornejew
  * @since 07.02.2021 16:10
  */
 

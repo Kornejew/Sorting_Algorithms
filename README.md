@@ -1,4 +1,4 @@
-# Implemented Algorithms and result:
+# Implemented Algorithms and results:
 
 |           Algorithm              | Maximum duration |   Minimum duration     | Average duration |
 | -------------------------------- | ---------------- | ---------------------- | ---------------- |

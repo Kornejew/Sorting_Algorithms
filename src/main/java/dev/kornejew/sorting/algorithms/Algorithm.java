@@ -3,7 +3,7 @@ package dev.kornejew.sorting.algorithms;
 /**
  * Contains all implemented algorithms.
  *
- * @author Dennis Kornejew (msg DAVID GmbH)
+ * @author Dennis Kornejew
  * @since 05.02.2021 21:25
  */
 

@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * TODO: Describe this file!
  *
- * @author Dennis Kornejew (msg DAVID GmbH)
+ * @author Dennis Kornejew
  * @since 14.04.2021 20:42
  */
 

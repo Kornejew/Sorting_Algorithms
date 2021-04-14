@@ -7,7 +7,7 @@ import java.math.BigInteger;
 /**
  * Used to execute different {@link dev.kornejew.sorting.algorithms.SortAlgorithm}
  *
- * @author Dennis Kornejew (msg DAVID GmbH)
+ * @author Dennis Kornejew
  * @since 05.02.2021 22:09
  */
 

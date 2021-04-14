@@ -3,7 +3,7 @@ package dev.kornejew.sorting.algorithms;
 /**
  * Abstract representation of manually implemented sorting algorithms.
  *
- * @author Dennis Kornejew (msg DAVID GmbH)
+ * @author Dennis Kornejew
  * @since 05.02.2021 21:00
  */
 

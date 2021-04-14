@@ -8,7 +8,7 @@ import java.util.Random;
 /**
  * Used to test the execution of {@link dev.kornejew.sorting.algorithms.SortAlgorithm}
  *
- * @author Dennis Kornejew (msg DAVID GmbH)
+ * @author Dennis Kornejew
  * @since 05.02.2021 21:09
  */
 

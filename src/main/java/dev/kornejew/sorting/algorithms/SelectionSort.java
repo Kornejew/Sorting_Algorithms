@@ -3,7 +3,7 @@ package dev.kornejew.sorting.algorithms;
 /**
  * Implementation of Selection Sort
  *
- * @author Dennis Kornejew (msg DAVID GmbH)
+ * @author Dennis Kornejew
  * @since 05.02.2021 23:00
  */
 

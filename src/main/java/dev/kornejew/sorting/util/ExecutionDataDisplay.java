@@ -8,7 +8,7 @@ import java.util.Map;
 /**
  * Visualisation of {@link ExecutionData}
  *
- * @author Dennis Kornejew (msg DAVID GmbH)
+ * @author Dennis Kornejew
  * @since 06.02.2021 12:19
  */
 
