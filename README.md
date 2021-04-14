@@ -1,8 +1,7 @@
 # Implemented Algorithms and results:
-
 |           Algorithm              | Maximum duration |   Minimum duration     | Average duration |
 | -------------------------------- | ---------------- | ---------------------- | ---------------- |
-|                      Bubble Sort |        403270300 |              158392900 |        204199122 |
-|                   Selection Sort |         60290200 |               14229700 |         16938592 |
-|                   Insertion Sort |         28014900 |               10391200 |         11839377 |
-|                       Merge Sort |          7124800 |                1405100 |          1954481 |
+|                      Bubble Sort |        395987000 |              162962900 |        204972299 |
+|                   Selection Sort |         61337300 |               16071400 |         19209907 |
+|                   Insertion Sort |         23840200 |                9574900 |         11588527 |
+|                       Merge Sort |          4748900 |                1235900 |          1611443 |

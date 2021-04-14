@@ -5,6 +5,7 @@ import dev.kornejew.sorting.algorithms.SortAlgorithm;
 import dev.kornejew.sorting.model.ExecutionData;
 import dev.kornejew.sorting.service.AlgorithmExecutorService;
 import dev.kornejew.sorting.util.ExecutionDataDisplay;
+import dev.kornejew.sorting.util.ExecutionDataWriter;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.EnumMap;
@@ -31,6 +32,7 @@ public class ApplicationStarter {
             executionDataMap.put(algorithm, executor.run(sortAlgorithm));
         }
 
-       ExecutionDataDisplay.printExecutionData(executionDataMap);
+        ExecutionDataDisplay.printExecutionData(executionDataMap);
+        ExecutionDataWriter.printExecutionData(executionDataMap);
     }
 }

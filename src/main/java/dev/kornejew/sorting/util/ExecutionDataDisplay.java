@@ -13,17 +13,13 @@ import java.util.Map;
  */
 
 public class ExecutionDataDisplay {
-    private static final String ANSI_RESET = "\u001B[0m";
-    private static final String ANSI_RED = "\u001B[31m";
-    private static final String ANSI_GREEN = "\u001B[32m";
-    private static final String ANSI_YELLOW = "\u001B[33m";
 
     private ExecutionDataDisplay() {
     }
 
     public static void printExecutionData(Map<Algorithm, ExecutionData> dataMap) {
 
-        System.out.println(ANSI_GREEN);
+        System.out.println(AnsiColor.GREEN.getColor());
         System.out.println("╔══════════════════════════════════╦══════════════════╦════════════════════════╦══════════════════╗");
         System.out.println("║           Algorithm              ║ Maximum duration ║    Minimum duration    ║ Average duration ║");
         System.out.println("╠══════════════════════════════════╬══════════════════╬════════════════════════╬══════════════════╣");
