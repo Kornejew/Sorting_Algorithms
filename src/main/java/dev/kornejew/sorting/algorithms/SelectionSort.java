@@ -11,7 +11,6 @@ public class SelectionSort implements SortAlgorithm {
 
     @Override
     public void sort(int[] a) {
-
         for (int i = 0; i < a.length; i++) {
             int maxValueIndex = 0;
             int maxValue = a[0];

@@ -1,12 +1,11 @@
 package dev.kornejew.sorting;
 
 
-import dev.kornejew.sorting.algorithms.BubbleSort;
-import dev.kornejew.sorting.algorithms.InsertionSort;
-import dev.kornejew.sorting.algorithms.SelectionSort;
-import dev.kornejew.sorting.algorithms.SortAlgorithm;
+import dev.kornejew.sorting.algorithms.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
@@ -41,6 +40,14 @@ class SortAlgorithmTest {
     void insertionSortShouldSortArrays() {
         this.sortAlgorithm = new InsertionSort();
         sortAlgorithm.sort(testArray);
+        assertArrayEquals(this.expectedArray, testArray);
+    }
+
+    @Test
+    void mergeSortShouldSortArrays() {
+        this.sortAlgorithm = new MergeSort();
+        sortAlgorithm.sort(testArray);
+        System.out.println(Arrays.toString(testArray));
         assertArrayEquals(this.expectedArray, testArray);
     }
 }
