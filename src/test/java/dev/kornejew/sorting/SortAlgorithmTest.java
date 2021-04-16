@@ -21,7 +21,6 @@ class SortAlgorithmTest {
         this.expectedArray = new int[]{-5, 0, 1, 2, 2, 3, 28};
     }
 
-
     @Test
     void bubbleSortShouldSortArrays() {
         this.sortAlgorithm = new BubbleSort();

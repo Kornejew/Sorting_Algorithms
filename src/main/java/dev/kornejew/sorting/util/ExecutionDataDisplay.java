@@ -11,7 +11,6 @@ import java.util.Map;
  * @author Dennis Kornejew
  * @since 06.02.2021 12:19
  */
-
 public class ExecutionDataDisplay {
 
     private ExecutionDataDisplay() {

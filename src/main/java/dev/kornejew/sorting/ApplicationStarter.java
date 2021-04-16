@@ -16,7 +16,6 @@ import java.util.EnumMap;
  * @author Dennis Kornejew
  * @since 05.02.2021 21:16
  */
-
 @Slf4j
 public class ApplicationStarter {
     public static void main(String[] args) {

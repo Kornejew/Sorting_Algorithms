@@ -6,7 +6,6 @@ package dev.kornejew.sorting.util;
  * @author Dennis Kornejew
  * @since 14.04.2021 22:06
  */
-
 public enum AnsiColor {
     RESET("\u001B[0m"),
     RED("\u001B[31m"),

@@ -10,7 +10,6 @@ import java.math.BigInteger;
  * @author Dennis Kornejew
  * @since 05.02.2021 22:09
  */
-
 @Getter
 public class ExecutionData {
 
